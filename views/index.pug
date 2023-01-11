@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    meta(name="Keywords" content=`${title}`)
+    meta(name="Description" content=`${pageContent}`)
+    //- link(rel="icon" href="CDN_BASE_URL/images/favicon.ico") //打包后会将public文件上传至七牛云，通知将CDN_BASE_URL替换成七牛云地址
+  body
+    div= data.data
+        
+       
